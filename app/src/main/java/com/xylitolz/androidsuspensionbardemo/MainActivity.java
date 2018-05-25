@@ -11,6 +11,7 @@ import android.support.design.widget.TabLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
@@ -135,6 +136,7 @@ public class MainActivity extends AppCompatActivity {
      * 开始副标题动画
      */
     private void startAnimator(int subTitleStatus) {
+        //处理不需要动画的状况
         if(this.subTitleStatus == subTitleStatus) {
             return;
         }
@@ -164,8 +166,8 @@ public class MainActivity extends AppCompatActivity {
         if(scrollRatio < 0 || scrollRatio >= 1) {
             rlTitleBar.setBackgroundColor(endColor);
         } else {
-            ArgbEvaluator argbEvaluator = new ArgbEvaluator();
-            int color = (int) argbEvaluator.evaluate(scrollRatio,startColor,endColor);
+            int color = (int) ArgbHelper.evaluate(scrollRatio,startColor,endColor);
+            Log.e("scrollRatio",scrollRatio+"   color"+color);
             rlTitleBar.setBackgroundColor(color);
         }
     }

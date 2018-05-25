@@ -125,6 +125,8 @@ public class RvContainerAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
                 TabLayout.Tab tab = tlItem.newTab().setText("Tab"+i);
                 tlItem.addTab(tab);
             }
+            tlItem.setTabWidth(PhoneUtil.dipToPixels(50,tlItem.getContext()) * 10,14,0,0);
+
         }
     }
 
