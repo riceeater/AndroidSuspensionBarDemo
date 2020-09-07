@@ -6,5 +6,5 @@
 
 效果图：
 
-![](https://riceeater.oss-cn-qingdao.aliyuncs.com/blog/%E8%87%AA%E5%AE%9A%E4%B9%89View-%E6%82%AC%E6%B5%AE%E6%9D%A1.gif)
+![](image/自定义悬浮条.gif)
 具体实现请移步[Android 沉浸式状态栏、颜色渐变、副标题动画和 TabLayout 悬浮条](https://riceeater.github.io/articles/Android/View/SuspensionBar/)
