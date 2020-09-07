@@ -7,4 +7,5 @@
 效果图：
 
 ![](image/自定义悬浮条.gif)
+
 具体实现请移步[Android 沉浸式状态栏、颜色渐变、副标题动画和 TabLayout 悬浮条](https://riceeater.github.io/articles/Android/View/SuspensionBar/)
