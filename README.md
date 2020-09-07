@@ -6,8 +6,5 @@
 
 效果图：
 
-![](http://p6z0jdp7l.bkt.clouddn.com/view/suspension_android4.1.gif)![](http://p6z0jdp7l.bkt.clouddn.com/view/suspension_android7.0.gif)
-
-左边是Android4.1上的效果，右边是5.0以上效果。
-
-具体实现请移步[Android 沉浸式状态栏、颜色渐变、副标题动画和 TabLayout 悬浮条](http://www.riceeater.info/articles/Android/View/SuspensionBar/)
+![](https://riceeater.oss-cn-qingdao.aliyuncs.com/blog/%E8%87%AA%E5%AE%9A%E4%B9%89View-%E6%82%AC%E6%B5%AE%E6%9D%A1.gif)
+具体实现请移步[Android 沉浸式状态栏、颜色渐变、副标题动画和 TabLayout 悬浮条](https://riceeater.github.io/articles/Android/View/SuspensionBar/)
